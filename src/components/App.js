@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import '../styles/App.css';
 
+import PilotForm from '../components/PilotForm.js'
+import Planets from '../components/Planets.js'
+
 class App extends Component {
   // PROPS AND STATE
   // Set props and state below.
@@ -46,14 +49,15 @@ class App extends Component {
     Store vehicles state in a variable.
     Map over this variable to access the values needed to render.
     */
-    })
+
     return (
       <div className="App">
-        {/*
-        The App component needs the following:
-         jumbotron section, form section, vehicle cards section.
-         Your form will also need a header in which you will pass the state of the form upon submit.
-         */}
+        <div className="App-header">
+          <h1>Star Wars</h1>
+          <h4>The planets of Star Wars</h4>
+        </div>
+        <PilotForm />
+        <Planets />
       </div>
     );
   }

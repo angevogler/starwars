@@ -1,9 +1,31 @@
+body {
+  background-image: url(http://www.planwallpaper.com/static/images/star_wars_battlefront_dice.0.jpg);
+}
+
 .App {
   margin: 10px;
 }
 
+.App-header {
+  background-color: grey;
+  opacity: 0.9;
+}
+
+.pilot-form {
+  background-color: 	#D3D3D3;
+  opacity: 0.9;
+}
+
+.planet-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .card{
-  margin: 5px;
+  background-color: #D3D3D3;
+  opacity: 0.9;
+  width: 30%;
+  margin: 1.5%;
 }
 
 .form{
